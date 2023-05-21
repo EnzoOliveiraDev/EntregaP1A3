@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Favorites</title>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
+  </head>
+  <body>
+    <img src="" alt="">
+    <div id="background">
+      <div id="actionBar">
+       <button id="logo">CINEGRAM</button> 
+       <button class="subMenu" id="perfil">PERFIL</button>
+       <button class="subMenu" id="favorites">FAVORITOS</button>
+       <input type="text" id="searchBar"/>
+      </div>
+      <div id="favorites">
+        <div class="favorite">
+          <div class="img_options">
+            <img src="" alt="">
+            <div class="buttons">
+              <button>LIKE</button>
+              <button>DISLIKE</button>
+              <button>FAVORITE</button>
+            </div>
+          </div> 
+          <div class="infoSerie">
+            <h1>NOME SÉRIE</h1>
+            <p>(DESCRIÇÃO)</p>
+          </div>
+        </div>
+        <div class="favorite">
+          <div class="img_options">
+            <img src="" alt="">
+            <div class="buttons">
+              <button>LIKE</button>
+              <button>DISLIKE</button>
+              <button>FAVORITE</button>
+            </div>
+          </div> 
+          <div class="infoSerie">
+            <h1>NOME SÉRIE</h1>
+            <p>(DESCRIÇÃO)</p>
+          </div>
+        </div>
+        <div class="favorite">
+          <div class="img_options">
+            <img src="" alt="">
+            <div class="buttons">
+              <button>LIKE</button>
+              <button>DISLIKE</button>
+              <button>FAVORITE</button>
+            </div>
+          </div> 
+          <div class="infoSerie">
+            <h1>NOME SÉRIE</h1>
+            <p>(DESCRIÇÃO)</p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+    </div >
+    <button id="out">SAIR</button>
+    
+      
+    
+    
+  </body>
+</html>
+<style>
+  body{
+    font-family: 'Julius Sans One';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8); ;
+    background-image: url('../images/fundo.png');
+  }
+  #background{
+    position: relative;
+    margin: 22px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1400px;
+    min-height: 720px;
+    max-height: auto;
+    border-radius: 14px;
+  }
+  #actionBar{
+    color: white;
+    display: flex;
+    text-align: justify;
+    height: 80px;
+    border-radius: 14px 14px 0px  0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.319);
+  }
+  #actionBar #logo{
+    font-size: 40px;
+  }
+  #actionBar .subMenu{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #actionBar button{
+    font-family: 'Julius Sans One';
+    background-color: none;
+    margin-left: 30px;
+    color: white;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  #actionBar #searchBar{
+    height: 22px;
+    padding-right: 160px;
+    margin: auto 525px;
+    border-radius: 14px;
+    opacity: 65%;
+  }
+  #actionBar #favorites{
+    color: rgba(255, 255, 255);;
+  }
+  #favorites .img_options{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+  }
+  .img_options .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .img_options .buttons button{
+    margin-top: 13px;
+  }
+  .favorite{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin: 20px auto auto auto;
+    height: 180px;
+    width: 90%;
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.38);
+  }
+  .favorite img{
+    background-color: aliceblue;
+    width: 150px;
+    height: 140px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .infoSerie{
+    text-align: center;
+    width: 100%;
+  }
+  .infoSerie h1{
+    font-size: 28px;
+  }
+</style>

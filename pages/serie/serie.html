@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Serie</title>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
+  </head>
+  <body>
+    <img src="" alt="">
+    <div id="background">
+      <div id="actionBar">
+       <button id="logo">CINEGRAM</button> 
+       <button class="subMenu" id="perfil">PERFIL</button>
+       <button class="subMenu" id="favorites">FAVORITOS</button>
+       <input type="text" id="searchBar"/>
+      </div>
+      <div id="infoSerie">
+        <div id="imageOptions">
+          <img src="" alt="">
+          <div id="buttons">
+            <button>ASSISTIR</button>
+            <button>ASSISTIDO</button>
+            <button>LIKE</button>
+            <button>DISLIKE</button>
+            <button>FAVORITO</button>
+          </div>
+        </div>
+        <div id="infoSerieComment">
+          <h1>
+            NOME SÉRIE
+          </h1>
+          <p>(DESCRIÇÃO)</p>
+          <h1>
+            COMENTARIO
+          </h1>
+          <INput></INput>
+        </div>
+      </div>
+      <button id="out">SAIR</button>
+    </div>
+  </body>
+</html>
+<style>
+  body{
+    font-family: 'Julius Sans One';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8); ;
+  }
+  #background{
+    position: relative;
+    margin: 22px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1400px;
+    min-height: 720px;
+    max-height: auto;
+    border-radius: 14px;
+  }
+  #actionBar{
+    color: white;
+    display: flex;
+    text-align: justify;
+    height: 80px;
+    border-radius: 14px 14px 0px  0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.319);
+  }
+  #actionBar #logo{
+    font-size: 40px;
+  }
+  #actionBar .subMenu{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #actionBar button{
+    font-family: 'Julius Sans One';
+    background-color: none;
+    margin-left: 30px;
+    color: white;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  #actionBar #searchBar{
+    height: 22px;
+    padding-right: 160px;
+    margin: auto 525px;
+    border-radius: 14px;
+    opacity: 65%;
+  }
+  #infoSerie{
+    display: flex;
+    flex-direction: row;
+  }
+  #imageOptions{
+
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+  }
+  #imageOptions img{
+    width: 320px;
+    height: 350px;
+    background-color: aliceblue;
+  }
+  #imageOptions #buttons{
+    margin-top: 40px;
+  }
+  #infoSerieComment{
+    text-align: center;
+    margin: 50px auto auto auto;
+  }
+  #infoSerieComment p{
+    margin-top: 35px;
+    margin-bottom: 140px;
+  }
+  #infoSerieComment input{
+    width: 600px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: none;
+  }
+
+</style>

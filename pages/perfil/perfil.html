@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Perfil</title>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
+  </head>
+  <body>
+    <img src="" alt="">
+    <div id="background">
+      <div id="actionBar">
+       <button id="logo">CINEGRAM</button> 
+       <button class="subMenu" id="perfil" >PERFIL</button>
+       <button class="subMenu" id="favorites">FAVORITOS</button>
+       <input id="searchBar" type="text"/>
+      </div>
+
+      <div id="perfilBackground">
+        <div id="personalInfos">
+          <div id="image">
+            <img src="../../images/fundo2.png" alt="">
+          </div>
+          <div id="details">
+            <h1>DETALHES</h1>
+            <div class="personalInfosRow">
+              <h2>NOME:</h2>
+              <input/>
+            </div>
+            <div class="personalInfosRow">
+              <h2>IDADE:</h2>
+              <input/>
+            </div>
+            <div class="personalInfosRow">
+              <h2>LOCAL:</h2>
+              <input/>
+            </div>
+          </div>
+        </div>
+        <div id="description">
+          <h1>DESCRIÇÃO</h1>
+          <button>Editar</button>  
+          <input/>
+        <div>
+      </div>
+
+      </div>
+
+    </div >
+    <button id="out">SAIR</button>
+    
+      
+    
+    
+  </body>
+</html>
+<style>
+  body{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8); ;
+    background-image: url('../images/fundo.png');
+  }
+  #background{
+    position: relative;
+    margin: 22px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1400px;
+    min-height: 720px;
+    max-height: auto;
+    border-radius: 14px;
+  }
+  #actionBar{
+    color: white;
+    display: flex;
+    text-align: justify;
+    height: 80px;
+    border-radius: 14px 14px 0px  0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.319);
+  }
+  #actionBar #logo{
+    font-size: 40px;
+  }
+  #actionBar .subMenu{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #actionBar button{
+    font-family: 'Julius Sans One';
+    background-color: none;
+    margin-left: 30px;
+    color: white;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  #actionBar #searchBar{
+    height: 22px;
+    padding-right: 160px;
+    margin: auto 525px;
+    border-radius: 14px;
+    opacity: 65%;
+  }
+  #actionBar #perfil{
+    color: rgba(255, 255, 255);;
+  }
+  #perfilBackground{
+    margin-top: 30px;
+    margin: 30px auto auto auto;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    width: 1300px;
+    height:580px;
+    background-color: rgba(0, 0, 0, 0.38);
+    border-radius: 14px;
+  }
+  #perfilBackground #personalInfos{
+    font-family: 'Julius Sans One';
+    margin-left: 70px;
+  }
+  #perfilBackground #personalInfos h1{
+    font-family: 'Julius Sans One';
+  }
+  .personalInfosRow h2{
+    font-family: 'Julius Sans One';
+  }
+  #perfilBackground .personalInfosRow{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+  }
+  #perfilBackground .personalInfosRow input{
+    justify-content: center;
+    opacity: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.01);
+    position: relative;
+    color: white;
+    margin-left: 20px;
+  }
+  #details{
+    margin-top: 30px;
+  }
+  #description{
+    text-align: center;
+    width: 100%;
+  }
+  #description h1{
+    margin-top: 25px;
+    margin-left: 50px;
+    font-family: 'Julius Sans One';
+  }
+  #description input{
+    margin-left: 30px;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: none;
+  }
+  #description button{
+    font-family: 'Julius Sans One';
+    border-radius: 100%;
+    width: 65px;
+    height: 38px;
+  }
+  #image{
+    margin-left: -35px;
+    margin-top: 30px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    height: 230px;
+    border-radius: 100%;
+  }
+</style>
